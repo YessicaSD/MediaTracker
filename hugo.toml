@@ -1,16 +1,16 @@
-title = "Media Tracker"
-baseURL = 'https://yessicasd.github.io/MediaTracker/'
-languageCode = 'es-es'
-defaultContentLanguage = "es"
+title = "My Media Tracker"
+baseURL = "https://example.org/"
+languageCode = "en"
+defaultContentLanguage = "en"
 enableEmoji = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "RSS_ACABADO"]
+  home = ["HTML", "RSS", "JSON", "RSS_FINISHED"]
 
 [outputFormats]
-[outputFormats.RSS_ACABADO]
+[outputFormats.RSS_FINISHED]
   mediaType = "application/rss+xml"
-  baseName = "acabados"
+  baseName = "finished"
   isPlainText = true
   notAlternative = true
 
@@ -19,62 +19,66 @@ enableEmoji = true
     path = "github.com/christt105/hugo-mediatracker-theme"
 
 [menu]
-   [[menu.main]]
-    pageRef="books"
-    name = 'Libros'
-    url = '/Libros/'
-    weight = 20
-    
   [[menu.main]]
-    pageRef="movies"
-    name = 'Películas'
+    identifier = 'library'
+    pageRef = '/'
+    name = 'Library'
+    url = '/'
+    weight = 20
+  [[menu.main]]
+    parent = 'library'
+    pageRef = 'movies'
+    name = 'Movies'
     url = '/movies/'
-    weight = 20
+    weight = 1
   [[menu.main]]
-    pageRef="tv"
+    parent = 'library'
+    pageRef = 'tv'
     name = 'Series'
     url = '/tv/'
-    weight = 30
+    weight = 2
   [[menu.main]]
-    pageRef="games"
-    name = 'Juegos'
+    parent = 'library'
+    pageRef = 'games'
+    name = 'Games'
     url = '/games/'
-    weight = 40
+    weight = 3
   [[menu.main]]
-    pageRef="collage"
+    parent = 'library'
+    pageRef = 'books'
+    name = 'Books'
+    url = '/books/'
+    weight = 4
+  [[menu.main]]
+    pageRef = 'collage'
     name = 'Collage'
     url = '/collage/'
-    weight = 50
+    weight = 53
   [[menu.main]]
-    pageRef="about"
-    name = 'Acerca de'
+    pageRef = 'stats'
+    name = 'Stats'
+    url = '/stats/'
+    weight = 55
+  [[menu.main]]
+    pageRef = 'about'
+    name = 'About'
     url = '/about/'
     weight = 60
 
 [params]
-  sitename = "Media Tracker"
+  sitename = "My Media Tracker"
   defaultColor = "dark"
-  description = "Mi colección personal de películas, series y videojuegos."
-  mainSections = ['movies', 'games', 'tv'] 
-
-  toc = false 
+  description = "A personal log of the movies, series and games I watch and play."
+  mainSections = ['movies', 'games', 'tv', 'books']
+  toc = false
   goToTop = true
   dateFormat = "2 Jan 2006"
 
 [params.author]
-  avatar = "avatar.webp"
-  intro = "Media Tracker"
-  name = "YessicaSd"
-  description = "Este es mi rincón personal donde guardo un registro de todas las películas, series y videojuegos que consumo."
+  intro = "My Media Tracker"
+  name = "your-name"
+  description = "Example site built with the hugo-mediatracker-theme."
 
 [[params.socialIcons]]
-name = "github"
-url = "https://github.com/YessicaSD"
-
-[[params.socialIcons]]
-name = "rss"
-url = "/MediaTracker/index.xml"
-
-[params.footer]
-since = 2025
-customText = ""
+  name = "github"
+  url = "https://github.com/your-name"

@@ -1,54 +1,48 @@
-# Media Tracker
+# Media Tracker starter
 
-[Leer en Español](README.es.md)
+A minimal, ready-to-deploy site using the
+[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme).
+**This is the best place to start** — clone it and you have a working media tracker.
 
-**Media Tracker** is a personal collection of movies, series, and games that I have consumed. It serves as a digital log to track and review my entertainment history.
+**Demo:** https://christt105.github.io/mediatracker-starter/
 
-## Technologies
+## Media Tracker ecosystem
 
-This project is built using:
-- **[Hugo](https://gohugo.io/):** A fast and flexible static site generator.
-- **[hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome):** A clean and minimal theme for Hugo.
-- **[Obsidian](https://obsidian.md/):** Used for creating and editing notes conveniently.
+Part of a small ecosystem that turns your media library into a website:
 
-## Setup & Usage
+- 🚀 **mediatracker-starter** — this repo: the ready-to-clone site. Start here.
+- 🎨 **[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme)** —
+  the Hugo theme that renders the library (gallery, search, filters, stats, RSS).
+- 📥 **[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)** —
+  an Obsidian plugin that creates theme-compatible entries from TMDB, TheTVDB, IGDB,
+  Steam and Open Library (see [Adding entries](#adding-entries)).
 
-To run this project locally, ensure you have Hugo installed.
+## Use it
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd MediaTracker
-    ```
+1. Click **Use this template** on GitHub (or clone).
+2. Install [Hugo extended](https://gohugo.io/installation/) and Go.
+3. Run it:
 
-2.  **Run the development server:**
-    ```bash
-    hugo server -D
-    ```
-    The site will be available at `http://localhost:1313/`.
+   ```bash
+   hugo server
+   ```
 
-3.  **Build for production:**
-    ```bash
-    hugo
-    ```
-    The static files will be generated in the `public/` directory.
+4. Edit `hugo.toml` (title, author, baseURL) and add your own entries under
+   `content/movies/`, `content/games/`, etc. Each entry is a folder with an
+   `index.md`; drop a cover image in the folder and set `image: cover.jpg`.
 
-## Content Management & Workflow
+Add a new media type by editing `data/media_types.yml` and adding a matching
+menu entry. See the theme README for all options.
 
-Content is managed using Markdown files located in the `content/` directory. The primary workflow involves editing notes in **Obsidian** and then migrating them to Hugo.
+## Adding entries
 
-### 🔄 Obsidian to Hugo Migration
+You can write each `index.md` by hand, but the easiest way is the companion
+[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)
+for Obsidian: search TMDB, TheTVDB, IGDB, Steam or Open Library (books) and it
+creates a theme-compatible note (cover, banner, metadata) for you. Point Obsidian at
+your `content/` folder and your entries are ready to commit.
 
-This project uses a custom migration script (`scripts/migration.py`) to transform Obsidian notes into Hugo-compatible content.
+## Deploy
 
-- **Source of Truth:** Obsidian Vault. Use Obsidian for all note creation and editing.
-- **Migration:** Run the `scripts/migration.py` script to generate Hugo content.
-  - This process handles WikiLinks conversion, image processing, and frontmatter adjustments.
-- **Immutability:** The `content/` directory in this Hugo project should be treated as **immutable** for manual edits. It is a generated copy. Any manual changes here will be overwritten by the next migration.
-
-### 📡 RSS Feeds
-
-The site provides the following RSS feeds:
-
-- **All Content:** [`index.xml`](index.xml) - Contains all movies, series, and games.
-- **Finished Items:** [`acabados/index.xml`](acabados/index.xml) - specific feed for items marked as "Acabado" (Finished).
+The included GitHub Actions workflow builds and deploys to GitHub Pages. Enable
+Pages (Settings → Pages → Source: GitHub Actions) and push to `main`.
