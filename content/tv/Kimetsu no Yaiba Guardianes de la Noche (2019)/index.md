@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg
 category: "[[Series]]"
 date: 2023-08-23
@@ -13,7 +13,7 @@ release_date: 2019-04-06
 rewatches: []
 seasons:
   - "[[Kimetsu no Yaiba Guardianes de la Noche (2019) - Temporada 5]]"
-status: Acabado
+status: finished
 tags:
   - anime
 title: "Kimetsu no Yaiba: Guardianes de la Noche"

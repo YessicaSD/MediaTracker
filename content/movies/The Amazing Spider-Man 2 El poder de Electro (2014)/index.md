@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_k0hlAzTryCYX1O1LyC6P8tAa8s0.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: Peter Parker lleva una vida muy ocupada, compaginando su tiempo entre 
 rating:
 release_date: 2014-04-16
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: "The Amazing Spider-Man 2: El poder de Electro"
 tmdb_id: 102382

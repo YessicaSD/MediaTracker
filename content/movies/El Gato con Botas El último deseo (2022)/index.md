@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_vOL1LE7BHaLfHhgssZr9a9jrtEC.jpg
 category: "[[Películas]]"
 date: 2023-01-21
@@ -14,7 +14,7 @@ rating: "7"
 release_date: 2022-12-07
 rewatches:
   - 2024-08-03
-status: Acabado
+status: finished
 tags: []
 title: "El Gato con Botas: El último deseo"
 tmdb_id: 315162

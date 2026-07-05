@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_Bwh7Lol5k3hSqYOtqXWxbbJVMx.jpg
 category: "[[Películas]]"
 date: 2021-12-18
@@ -11,7 +11,7 @@ overview: Peter Parker es desenmascarado y por tanto no es capaz de separar su v
 rating: "6"
 release_date: 2021-12-15
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - cine
 title: "Spider-Man: No Way Home"

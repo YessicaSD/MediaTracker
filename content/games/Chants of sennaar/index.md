@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: steamgriddb_e089b3b5750148e7f7fcc282635fb2d4.png
 category: "[[Juegos]]"
 date: 2026-07-05
@@ -19,7 +19,7 @@ related:
   - The Legend of Zelda Tears of the Kingdom
 release_date: 2023-09-05
 rewatches: []
-status: Acabado
+status: finished
 steamgriddb_id: 35744
 tags: []
 title: Chants of Sennaar

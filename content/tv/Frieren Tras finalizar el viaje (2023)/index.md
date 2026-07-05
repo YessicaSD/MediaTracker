@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
 - Frieren
 banner_image: tmdb_emGCHnRPru5LLWcKbSFzUEUisac.jpg
@@ -25,7 +25,7 @@ rewatches: []
 seasons:
 - '[[Frieren Tras finalizar el viaje (2023) - Temporada 1]]'
 - '[[Frieren Tras finalizar el viaje (2023) - Temporada 2]]'
-status: Acabado
+status: finished
 tags:
 - anime
 title: 'Frieren: Tras finalizar el viaje'

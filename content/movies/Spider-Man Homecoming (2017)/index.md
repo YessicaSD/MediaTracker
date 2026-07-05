@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: Peter Parker comienza a experimentar su recién descubierta identidad 
 rating:
 release_date: 2017-07-05
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - cine
 title: "Spider-Man: Homecoming"

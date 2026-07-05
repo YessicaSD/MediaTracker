@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_cgjLr9VVQzp0mYQ6IUc3JlZ8Frp.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ rating: "5"
 related: []
 release_date: 2003-05-23
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Como Dios
 tmdb_id: 310

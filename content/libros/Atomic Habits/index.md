@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: atomic-habits_gallery_hi-res_01.jpg
 category: "[[Libros]]"
 date: 2025-08-30
@@ -8,7 +8,7 @@ overview:
 rating: "6"
 release_date: 2015-07-14
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Atomic Habits
 tmdb_id:

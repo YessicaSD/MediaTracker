@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_aCHn2TXYJfzPXQKA6r9mKPbMlUB.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ rating: "6"
 related: []
 release_date: 1998-06-04
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: El show de Truman
 tmdb_id: 37165

@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_2okfik8YwzSfdETpT5cUClSiGFO.jpg
 date: 2026-04-08
 genres:
@@ -10,7 +10,7 @@ rating: "5"
 related: []
 release_date: 2024-06-28
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - anime
 title: Look Back

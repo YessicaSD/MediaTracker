@@ -48,7 +48,7 @@
         </div>
         {{ end }}
 
-        {{ if and (eq $page.Params.status "Acabado") $page.Params.rating }}
+        {{ if and (eq $page.Params.status "finished") $page.Params.rating }}
 
         {{ $ratingKey := string $page.Params.rating }}
 
@@ -67,7 +67,7 @@
     <div class="media-info">
         <h3><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
         <small>
-            {{ if eq $page.Params.status "Acabado" }}
+            {{ if eq $page.Params.status "finished" }}
             {{ $configDateFormat := $page.Site.Params.dateFormat | default "2 Jan 2006" }}
             {{ if $date }}
             {{ time.Format $configDateFormat $date }}
@@ -75,7 +75,8 @@
             {{ time.Format $configDateFormat $page.Params.release_date }}
             {{ end }}
             {{ else }}
-            {{ $page.Params.status | default "En curso" }}
+            {{- $statusLabels := dict "in_progress" "En Curso" "paused" "Pausado" "dropped" "Abandonado" "not_started" "Sin Empezar" -}}
+            {{ index $statusLabels $page.Params.status | default "En Curso" }}
             {{ end }}
         </small>
     </div>

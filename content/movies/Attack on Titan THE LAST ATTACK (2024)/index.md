@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_nB6IR9XfdRpVRKCz85uT97EjgwB.jpg
 category: "[[Películas]]"
 date:
@@ -12,7 +12,7 @@ overview: 'Película recopilatoria para cines de los dos últimos episodios espe
 rating:
 release_date: 2024-11-08
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - anime
   - cine

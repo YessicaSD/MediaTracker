@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_nv5wwZou159v5OC61i4ElR7OqyY.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: Sophie, una joven sobre la que pesa una horrible maldición que le con
 rating: "7"
 release_date: 2004-09-09
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - anime
   - cine

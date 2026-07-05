@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_9udCLTxTFl28RxnK8Q05E154ZGa.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ rating: "5"
 related: []
 release_date: 2014-02-26
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: El gran hotel Budapest
 tmdb_id: 120467

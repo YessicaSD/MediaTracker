@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_95ozIP0A2fKaAXxwDxUEVn74Iux.jpg
 category: "[[Películas]]"
 date: 2023-12-29
@@ -11,7 +11,7 @@ overview: Dos chicas jóvenes, Mei y Satsuki, se mudan a una nueva casa cerca de
 rating: "5"
 release_date: 1988-04-16
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - anime
 title: Mi vecino Totoro

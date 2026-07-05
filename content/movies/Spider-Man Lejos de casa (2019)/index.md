@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_vamhMTvh9m9zFHDoR0v1nRtf6T4.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: Peter Parker decide irse junto a MJ, Ned y el resto de sus amigos a pa
 rating:
 release_date: 2019-06-28
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - cine
 title: "Spider-Man: Lejos de casa"

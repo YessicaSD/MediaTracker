@@ -17,7 +17,7 @@ seasons:
 - '[[Media Tracker/Seasons/Ataque a los Titanes (2013) - OVAs]]'
 - '[[Media Tracker/Seasons/Ataque a los Titanes (2013) - Final Season|Ataque a los
   Titanes (2013) - Final Season]]'
-status: Acabado
+status: finished
 tags:
 - anime
 title: Ataque a los Titanes

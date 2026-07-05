@@ -16,7 +16,7 @@ enableEmoji = true
 
 [module]
   [[module.imports]]
-    path = "github.com/hugo-sid/hugo-blog-awesome"
+    path = "github.com/christt105/hugo-mediatracker-theme"
 
 [menu]
    [[menu.main]]

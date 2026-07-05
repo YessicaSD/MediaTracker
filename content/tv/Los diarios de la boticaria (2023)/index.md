@@ -19,7 +19,7 @@ related: []
 release_date: 2023-10-22
 rewatches: []
 seasons: []
-status: En Curso
+status: in_progress
 tags:
 - anime
 title: Los diarios de la boticaria

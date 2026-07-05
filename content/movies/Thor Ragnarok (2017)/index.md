@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_6G2fLCVm9fiLyHvBrccq6GSe2ih.jpg
 category: '[[Películas]]'
 date: 2017-11-01
@@ -18,7 +18,7 @@ rating: null
 related: []
 release_date: 2017-10-02
 rewatches: []
-status: Acabado
+status: finished
 tags:
 - cine
 title: 'Thor: Ragnarok'

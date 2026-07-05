@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_aY7zv2pfk9H0QxaaL3PBjvalbKQ.jpg
 category: "[[Series]]"
 date:
@@ -14,7 +14,7 @@ rewatches: []
 seasons:
   - "[[Lupin (2021) - Temporada 1]]"
   - "[[Lupin (2021) - Temporada 2]]"
-status: Pausado
+status: paused
 tags: []
 title: Lupin
 tmdb_id: 96677

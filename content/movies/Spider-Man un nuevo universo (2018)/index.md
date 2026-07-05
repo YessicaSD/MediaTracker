@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_8mnXR9rey5uQ08rZAvzojKWbDQS.jpg
 category: "[[Películas]]"
 date: 2018-12-06
@@ -12,7 +12,7 @@ overview: "En un universo paralelo donde Peter Parker ha muerto, un joven de sec
 rating: "7"
 release_date: 2018-12-06
 rewatches:
-status: Acabado
+status: finished
 tags: []
 title: "Spider-Man: un nuevo universo"
 tmdb_id: 324857

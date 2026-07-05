@@ -37,7 +37,7 @@
             {{ end }}
             {{ end }}
 
-            {{ $finished := where $mediaClean "Params.status" "eq" "Acabado" }}
+            {{ $finished := where $mediaClean "Params.status" "eq" "finished" }}
 
             {{/* build entries that include rewatches dates */}}
             {{ $finishedEntries := slice }}
@@ -72,9 +72,9 @@
             {{ end }}
             {{ $yearGroups := $yearScratch.Values }}
 
-            {{ $others := where $mediaClean "Params.status" "in" (slice "Pausado" "Abandonado") }}
+            {{ $others := where $mediaClean "Params.status" "in" (slice "paused" "dropped") }}
 
-            {{ $statusFilter := slice "Acabado" "Pausado" "Abandonado" "Sin Empezar" }}
+            {{ $statusFilter := slice "finished" "paused" "dropped" "not_started" }}
             {{ $inProgress := where $mediaClean "Params.status" "not in" $statusFilter }}
 
             {{ if gt (len $inProgress) 0 }}

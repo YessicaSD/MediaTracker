@@ -7,7 +7,7 @@ release_date: null
 rewatches: []
 season_number: 2
 series: '[[DAN DA DAN (2024)]]'
-status: Acabado
+status: finished
 tags:
 - anime
 title: DAN DA DAN - Temporada 2

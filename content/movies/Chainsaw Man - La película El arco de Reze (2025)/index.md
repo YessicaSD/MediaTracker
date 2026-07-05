@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_gqTz24ZRsCP6AKjARmEivY7m0cK.jpg
 category: "[[Películas]]"
 date: 2025-10-29
@@ -13,7 +13,7 @@ rating: "5"
 related:
 release_date: 2025-09-19
 rewatches:
-status: Acabado
+status: finished
 tags:
   - anime
   - cine

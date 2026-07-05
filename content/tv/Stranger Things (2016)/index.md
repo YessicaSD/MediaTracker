@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_56v2KjBlU4XaOv9rVYEQypROD7P.jpg
 category: '[[Series]]'
 date: null
@@ -15,7 +15,7 @@ rewatches: []
 seasons:
 - '[[Stranger Things (2016) - Temporada 5]]'
 - '[[Stranger Things (2016) - Temporada 1]]'
-status: Acabado
+status: finished
 tags: []
 title: Stranger Things
 tmdb_id: 66732

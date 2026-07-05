@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_mxsa13QKcIoA15SJwK3wgWwsWsZ.jpg
 category: '[[Series]]'
 date: 2024-09-11
@@ -19,7 +19,7 @@ rating: '5'
 release_date: 2024-09-06
 rewatches: []
 seasons: []
-status: Acabado
+status: finished
 tags: []
 title: Cómo cazar a un monstruo
 tmdb_id: 258847

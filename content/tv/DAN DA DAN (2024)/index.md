@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_vExnxa9AvhXXjuYja9980U4Mem0.jpg
 category: "[[Series]]"
 date:
@@ -15,7 +15,7 @@ rewatches: []
 seasons:
   - "[[DAN DA DAN (2024) - Temporada 1]]"
   - "[[Media Tracker/Seasons/DAN DA DAN (2024) - Temporada 2|DAN DA DAN (2024) - Temporada 2]]"
-status: Acabado
+status: finished
 tags:
   - anime
 title: DAN DA DAN

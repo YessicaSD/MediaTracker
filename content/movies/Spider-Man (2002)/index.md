@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_gkINAPOuwUFo2Qphs3OUUbjUKUZ.jpg
 category: '[[Películas]]'
 date: null
@@ -13,7 +13,7 @@ overview: 'Peter Parker es un joven y tímido estudiante que vive con su tía Ma
 rating: null
 release_date: 2002-05-01
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Spider-Man
 tmdb_id: 557

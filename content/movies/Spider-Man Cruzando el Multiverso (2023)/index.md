@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_9xfDWXAUbFXQK585JvByT5pEAhe.jpg
 category: "[[Películas]]"
 date:
@@ -12,7 +12,7 @@ overview: Tras reencontrarse con Gwen Stacy, el amigable vecindario de Spider-Ma
 rating: "7"
 release_date: 2023-05-31
 rewatches: []
-status: Acabado
+status: finished
 tags:
   - cine
 title: "Spider-Man: Cruzando el Multiverso"

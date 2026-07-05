@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_vmBSlRZYKfNdaDZ7wGkrSNbmdMI.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: "El temerario aventurero Peter Quill es objeto de un implacable cazarr
 rating: "6"
 release_date: 2014-07-30
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Guardianes de la galaxia
 tmdb_id: 118340

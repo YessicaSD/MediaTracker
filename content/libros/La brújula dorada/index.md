@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: Banner.jpg
 category: "[[Libros]]"
 date: 2026-03-03
@@ -8,7 +8,7 @@ overview:
 rating: "3"
 release_date:
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: La brújula dorada
 tmdb_id:

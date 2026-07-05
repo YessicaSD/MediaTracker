@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_6zpqAdAmOktVVcQXhy85Y1oBu5e.jpg
 category: "[[Series]]"
 date:
@@ -13,7 +13,7 @@ release_date: 2021-09-17
 rewatches: []
 seasons:
   - "[[El juego del calamar (2021) - Temporada 2]]"
-status: Pausado
+status: paused
 tags: []
 title: El juego del calamar
 tmdb_id: 93405

@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_67HggiWaP9ZLv5sPYmyRV37yAJM.jpg
 category: "[[Películas]]"
 date:
@@ -12,7 +12,7 @@ rating: "6"
 related: []
 release_date: 1994-06-23
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Forrest Gump
 tmdb_id: 13

@@ -48,11 +48,11 @@
 
             {{ $media = $mediaClean }}
 
-            {{ $finished := where $media "Params.status" "eq" "Acabado" }}
-            {{ $paused := where $media "Params.status" "eq" "Pausado" }}
-            {{ $abandoned := where $media "Params.status" "eq" "Abandonado" }}
+            {{ $finished := where $media "Params.status" "eq" "finished" }}
+            {{ $paused := where $media "Params.status" "eq" "paused" }}
+            {{ $abandoned := where $media "Params.status" "eq" "dropped" }}
 
-            {{ $status := (slice "Acabado" "Pausado" "Abandonado" "Sin Empezar") }}
+            {{ $status := (slice "finished" "paused" "dropped" "not_started") }}
             {{ $inProgress := where $media "Params.status" "not in" $status }}
 
 

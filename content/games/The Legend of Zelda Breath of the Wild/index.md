@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: steamgriddb_e089b3b5750148e7f7fcc282635fb2d4.png
 category: "[[Juegos]]"
 date: 2022-01-20
@@ -16,7 +16,7 @@ related:
   - The Legend of Zelda Tears of the Kingdom
 release_date: 2017-03-03
 rewatches: []
-status: Acabado
+status: finished
 steamgriddb_id: 35744
 tags: []
 title: "The Legend of Zelda: Breath of the Wild"

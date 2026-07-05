@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_ciizJ9Okzt9tBBGK7Q3T14LFT2j.jpg
 category: '[[Series]]'
 date: 2024-07-21
@@ -14,7 +14,7 @@ rating: '6'
 release_date: 2024-03-21
 rewatches: []
 seasons: []
-status: Acabado
+status: finished
 tags: []
 title: El problema de los 3 cuerpos
 tmdb_id: 108545

@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: tmdb_aJn9XeesqsrSLKcHfHP4u5985hn.jpg
 category: "[[Películas]]"
 date:
@@ -11,7 +11,7 @@ overview: Continúan las aventuras del equipo en su travesía por los confines d
 rating: "5"
 release_date: 2017-04-19
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Guardianes de la Galaxia Vol. 2
 tmdb_id: 283995

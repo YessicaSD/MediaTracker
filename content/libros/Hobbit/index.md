@@ -1,4 +1,4 @@
----
+﻿---
 banner_image: Hobbit_banner.jpg
 category: "[[Libros]]"
 date: 2026-05-03
@@ -8,7 +8,7 @@ overview:
 rating: "6"
 release_date:
 rewatches: []
-status: Acabado
+status: finished
 tags: []
 title: Hobbit
 tmdb_id:
