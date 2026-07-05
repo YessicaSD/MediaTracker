@@ -180,11 +180,19 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false
+      "bases:Crear nueva base": false,
+      "media-tracker:Add movie or TV show": false,
+      "media-tracker:Add video game": false,
+      "media-tracker:Add book": false
     }
   },
   "active": "1d80c4ec55b628af",
   "lastOpenFiles": [
+    "games/Chants of sennaar/index.md",
+    "Media Tracker/Games/Chants of Sennaar (2023).md",
+    "games/Chants of sennaar/Chants of Sennaar (2023).md",
+    "Media Tracker/Games",
+    "Media Tracker",
     "tv/Los diarios de la boticaria (2023)/sedJY1kAJ",
     "tv/Tragones y mazmorras (2024)/sedelS4Qq",
     "tv/Chainsaw Man (2022)/sedP9SRZa",
@@ -193,11 +201,7 @@
     "seasons/Kimetsu no Yaiba Guardianes de la Noche (2019) - Temporada 5/sedcLYou9",
     "seasons/Frieren Tras finalizar el viaje (2023) - Temporada 2/sedvl9dVZ",
     "seasons/Frieren Tras finalizar el viaje (2023) - Temporada 1/sedMVTqOW",
-    "seasons/DAN DA DAN (2024) - Temporada 2/sedvrGhBG",
-    "seasons/DAN DA DAN (2024) - Temporada 1/sedGyC6Md",
-    "seasons/Ataque a los Titanes (2013) - OVAs/sedBAPsCo",
     "2022-01-20.md",
-    "games/Chants of sennaar/index.md",
     "games/Chants of sennaar/Sin título.md",
     "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
     "collage.md",
@@ -230,7 +234,6 @@
     "movies/Ant-Man (2015)/index.md",
     "libros/Atomic Habits/i.md",
     "tv/El juego del calamar (2021)/index.md",
-    "tv/Tu amigo y vecino Spider-Man (2025)/index.md",
-    "2017-01-01.md"
+    "tv/Tu amigo y vecino Spider-Man (2025)/index.md"
   ]
 }
