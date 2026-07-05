@@ -4,64 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "25a5e8d654cc51d6",
+        "id": "7228f2f522c78193",
         "type": "tabs",
         "children": [
           {
-            "id": "f69ffdd083bbf56c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb"
-            }
-          },
-          {
-            "id": "bbb2b2bff2a6a773",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb"
-            }
-          },
-          {
-            "id": "ae66f51a5879cb1e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb"
-            }
-          },
-          {
-            "id": "f79bd57e32c190fb",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb"
-            }
-          },
-          {
-            "id": "13255791bc95b72d",
+            "id": "1d80c4ec55b628af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "movies/Chainsaw Man - La película El arco de Reze (2025)/index.md",
+                "file": "games/Chants of sennaar/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -69,8 +21,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "libros/Atomic Habits/index.md",
+                "file": "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de index"
+              "title": "Enlaces entrantes de tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb"
             }
           },
           {
@@ -232,12 +183,18 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "13255791bc95b72d",
+  "active": "1d80c4ec55b628af",
   "lastOpenFiles": [
-    "movies/Weapons (2025)/index.md",
-    "movies/Chainsaw Man - La película El arco de Reze (2025)/index.md",
-    "about.md",
+    "2022-01-20.md",
+    "games/Chants of sennaar/index.md",
+    "games/Chants of sennaar/Sin título.md",
+    "games/Chants of sennaar",
+    "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
     "collage.md",
+    "tv/Tu amigo y vecino Spider-Man (2025)/tmdb_aSe4aB8tiPQMoQt9B4SKFgIymwL.jpg",
+    "about.md",
+    "movies/Chainsaw Man - La película El arco de Reze (2025)/index.md",
+    "movies/Weapons (2025)/index.md",
     "tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
     "Sin título.canvas",
     "atomic-habits_gallery_hi-res_01.jpg",
@@ -259,12 +216,9 @@
     "assets/icons/favicon.svg",
     "assets/icons/web-app-manifest-512x512.png",
     "assets/icons/favicon.ico",
-    "assets/icons/favicon-96x96.png",
-    "assets/icons/apple-touch-icon.png",
     "assets/sass",
     "assets/icons",
     "assets",
-    "libros/La brújula dorada",
     "libros/Atomic Habits/index.md",
     "index 1.md",
     "index.md",
@@ -277,9 +231,6 @@
     "tv/El juego del calamar (2021)/index.md",
     "tv/Tu amigo y vecino Spider-Man (2025)/index.md",
     "2017-01-01.md",
-    "2023-12-13.md",
-    "2021-01-20.md",
-    "tv/Stranger Things (2016)/index.md",
-    "tv/Solo Leveling (2024)/index.md"
+    "2023-12-13.md"
   ]
 }
