@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "games/Chants of sennaar/index.md",
+                "file": "games/Outer Wilds/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -189,10 +191,13 @@
   "active": "1d80c4ec55b628af",
   "lastOpenFiles": [
     "games/Chants of sennaar/index.md",
+    "games/Outer Wilds/index.md",
+    "games/Outer Wilds",
     "Media Tracker/Games/Chants of Sennaar (2023).md",
-    "games/Chants of sennaar/Chants of Sennaar (2023).md",
+    "Media Tracker/Games/Outer Wilds.md",
     "Media Tracker/Games",
     "Media Tracker",
+    "games/Chants of sennaar/Chants of Sennaar (2023).md",
     "tv/Los diarios de la boticaria (2023)/sedJY1kAJ",
     "tv/Tragones y mazmorras (2024)/sedelS4Qq",
     "tv/Chainsaw Man (2022)/sedP9SRZa",
@@ -200,7 +205,6 @@
     "seasons/Stranger Things (2016) - Temporada 1/sedvM66ko",
     "seasons/Kimetsu no Yaiba Guardianes de la Noche (2019) - Temporada 5/sedcLYou9",
     "seasons/Frieren Tras finalizar el viaje (2023) - Temporada 2/sedvl9dVZ",
-    "seasons/Frieren Tras finalizar el viaje (2023) - Temporada 1/sedMVTqOW",
     "2022-01-20.md",
     "games/Chants of sennaar/Sin título.md",
     "movies/Ant-Man (2015)/tmdb_1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
@@ -232,8 +236,6 @@
     "seasons/Jujutsu Kaisen (2020) - Temporada 1/index.md",
     "seasons/FROM (2022) - Temporada 1/index.md",
     "movies/Ant-Man (2015)/index.md",
-    "libros/Atomic Habits/i.md",
-    "tv/El juego del calamar (2021)/index.md",
-    "tv/Tu amigo y vecino Spider-Man (2025)/index.md"
+    "libros/Atomic Habits/i.md"
   ]
 }
