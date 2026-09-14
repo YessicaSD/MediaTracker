@@ -14,9 +14,8 @@ rating: '7'
 release_date: 2013-04-07
 rewatches: []
 seasons:
-- '[[Media Tracker/Seasons/Ataque a los Titanes (2013) - OVAs]]'
-- '[[Media Tracker/Seasons/Ataque a los Titanes (2013) - Final Season|Ataque a los
-  Titanes (2013) - Final Season]]'
+- Media Tracker/Seasons/Ataque a los Titanes (2013) - OVAs
+- Ataque a los Titanes (2013) - Final Season
 status: finished
 tags:
 - anime

@@ -1,20 +1,25 @@
-﻿---
+---
 banner_image: tmdb_8mnXR9rey5uQ08rZAvzojKWbDQS.jpg
-category: "[[Películas]]"
+category: '[[Películas]]'
 date: 2018-12-06
 genres:
-  - Animación
-  - Acción
-  - Aventura
-  - Ciencia ficción
+- Animación
+- Acción
+- Aventura
+- Ciencia ficción
 image: tmdb_iiZZdoQBEYBv6id8su7ImL0oCbD.jpg
-overview: "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk construye el 'Super Colisionador' trae a una versión alternativa de Peter Parker que tratará de enseñar a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo:  cuatro versiones alternativas buscan regresar a su universo antes de que toda la realidad se colapse."
-rating: "7"
+overview: 'En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria
+  llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso
+  Wilson Fisk construye el ''Super Colisionador'' trae a una versión alternativa de
+  Peter Parker que tratará de enseñar a Miles como ser un mejor Spider-Man. Pero no
+  será el único Spider Man en entrar a este universo:  cuatro versiones alternativas
+  buscan regresar a su universo antes de que toda la realidad se colapse.'
+rating: '7'
 release_date: 2018-12-06
-rewatches:
+rewatches: null
 status: finished
 tags: []
-title: "Spider-Man: un nuevo universo"
+title: 'Spider-Man: un nuevo universo'
 tmdb_id: 324857
 type: movie
 ---

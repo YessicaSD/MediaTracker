@@ -1,4 +1,4 @@
-﻿---
+---
 aliases:
 - Frieren
 banner_image: tmdb_emGCHnRPru5LLWcKbSFzUEUisac.jpg
@@ -23,8 +23,8 @@ rating: '7'
 release_date: 2023-09-29
 rewatches: []
 seasons:
-- '[[Frieren Tras finalizar el viaje (2023) - Temporada 1]]'
-- '[[Frieren Tras finalizar el viaje (2023) - Temporada 2]]'
+- Frieren Tras finalizar el viaje (2023) - Temporada 1
+- Frieren Tras finalizar el viaje (2023) - Temporada 2
 status: finished
 tags:
 - anime
@@ -32,5 +32,6 @@ title: 'Frieren: Tras finalizar el viaje'
 tmdb_id: 209867
 type: tv
 ---
+
 Comentario del Christian, pero comparto su opinión:
 Una obra maravillosa. Se ha convertido en mi segunda serie favorita. Sí, es lenta y está bien así. Si, pasan cosas aunque no lo parezca, va de eso la serie. Cada episodio hay un aprendizaje de los personajes y avanzan en sus relaciones. Es muy bonita.

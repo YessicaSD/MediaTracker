@@ -6,7 +6,7 @@ rating: 7
 release_date: null
 rewatches: []
 season_number: '1'
-series: '[[Frieren Tras finalizar el viaje (2023)]]'
+series: Frieren Tras finalizar el viaje (2023)
 status: finished
 tags:
 - anime

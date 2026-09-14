@@ -1,13 +1,18 @@
-﻿---
+---
 banner_image: tmdb_9udCLTxTFl28RxnK8Q05E154ZGa.jpg
-category: "[[Películas]]"
-date:
+category: '[[Películas]]'
+date: null
 genres:
-  - Comedia
-  - Drama
+- Comedia
+- Drama
 image: tmdb_1wk0vpNCX5T40KsGQKjfoDAhmJw.jpg
-overview: El Sr. Gustave H., un legendario conserje de un famoso hotel europeo de entreguerras, entabla amistad con Zero Moustafa, un joven empleado al que convierte en su protegido. La historia trata sobre el robo y la recuperación de una pintura renacentista de valor incalculable y sobre la batalla que enfrenta a los miembros de una familia por una inmensa fortuna. Como telón de fondo, los levantamientos que transformaron Europa durante la primera mitad del siglo XX.
-rating: "5"
+overview: El Sr. Gustave H., un legendario conserje de un famoso hotel europeo de
+  entreguerras, entabla amistad con Zero Moustafa, un joven empleado al que convierte
+  en su protegido. La historia trata sobre el robo y la recuperación de una pintura
+  renacentista de valor incalculable y sobre la batalla que enfrenta a los miembros
+  de una familia por una inmensa fortuna. Como telón de fondo, los levantamientos
+  que transformaron Europa durante la primera mitad del siglo XX.
+rating: '5'
 related: []
 release_date: 2014-02-26
 rewatches: []

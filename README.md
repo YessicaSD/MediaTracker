@@ -1,48 +1,70 @@
-# Media Tracker starter
+# Media Tracker
 
-A minimal, ready-to-deploy site using the
-[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme).
-**This is the best place to start** — clone it and you have a working media tracker.
+My personal log of movies, series, games and books — a generated Hugo site
+built from my Obsidian vault.
 
-**Demo:** https://christt105.github.io/mediatracker-starter/
+## How it works
 
-## Media Tracker ecosystem
+Content lives in Obsidian. Entries are created with the
+[hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin),
+which pulls metadata and artwork from TMDB, TheTVDB, IGDB, Steam and Open
+Library. A migration script (`scripts/migration.py`) then converts those
+Obsidian notes into Hugo page bundles under `content/`. **`content/` is
+therefore generated — manual edits will be overwritten on the next run.**
 
-Part of a small ecosystem that turns your media library into a website:
+```
+obsidian/  ←── Obsidian vault, notes created by hugo-mediatracker-plugin
+      │        (Movies/, TV/, Seasons/, Games/, Books/, Covers/)
+      ▼
+scripts/migration.py
+      │
+      ▼
+content/  ←── generated, do not edit by hand
+      │
+      ▼
+hugo build → GitHub Actions → GitHub Pages
+```
 
-- 🚀 **mediatracker-starter** — this repo: the ready-to-clone site. Start here.
-- 🎨 **[hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme)** —
-  the Hugo theme that renders the library (gallery, search, filters, stats, RSS).
-- 📥 **[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)** —
-  an Obsidian plugin that creates theme-compatible entries from TMDB, TheTVDB, IGDB,
-  Steam and Open Library (see [Adding entries](#adding-entries)).
+`obsidian/` is a self-contained vault folder at the repo root (gitignored,
+same as `content/.obsidian` was before) — open it directly in Obsidian.
 
-## Use it
+## Stack
 
-1. Click **Use this template** on GitHub (or clone).
-2. Install [Hugo extended](https://gohugo.io/installation/) and Go.
-3. Run it:
+| Tool | Role |
+|------|------|
+| [Hugo](https://gohugo.io/) | Static site generator |
+| [hugo-mediatracker-theme](https://github.com/christt105/hugo-mediatracker-theme) | Theme (Hugo Module) |
+| [Obsidian](https://obsidian.md/) | Note editing / source of truth |
+| [hugo-mediatracker-plugin](https://github.com/christt105/hugo-mediatracker-plugin) | Creates entries in Obsidian (TMDB / TheTVDB / IGDB / Steam / Open Library) |
+| GitHub Actions | Build & deploy to Pages |
+
+## Adding an entry
+
+1. Open `obsidian/` as a vault in Obsidian (the Media Tracker plugin is
+   already installed and configured there).
+2. Use the plugin to search and create a note under `Movies/`, `TV/`,
+   `Seasons/`, `Games/` or `Books/`.
+3. Run the migration script to regenerate `content/`:
 
    ```bash
-   hugo server
+   pip install -r requirements.txt
+   python scripts/migration.py
    ```
 
-4. Edit `hugo.toml` (title, author, baseURL) and add your own entries under
-   `content/movies/`, `content/games/`, etc. Each entry is a folder with an
-   `index.md`; drop a cover image in the folder and set `image: cover.jpg`.
+4. Review the diff (`git status` / `git diff`) and commit.
 
-Add a new media type by editing `data/media_types.yml` and adding a matching
-menu entry. See the theme README for all options.
+## Running locally
 
-## Adding entries
+```bash
+hugo server
+```
 
-You can write each `index.md` by hand, but the easiest way is the companion
-[obsidian-mediatracker-plugin](https://github.com/christt105/obsidian-mediatracker-plugin)
-for Obsidian: search TMDB, TheTVDB, IGDB, Steam or Open Library (books) and it
-creates a theme-compatible note (cover, banner, metadata) for you. Point Obsidian at
-your `content/` folder and your entries are ready to commit.
+Requires Hugo extended + Go (for modules) and Python 3 (for the migration
+script). The theme is fetched automatically via `go.mod`.
 
-## Deploy
+## RSS feeds
 
-The included GitHub Actions workflow builds and deploys to GitHub Pages. Enable
-Pages (Settings → Pages → Source: GitHub Actions) and push to `main`.
+| Feed | URL |
+|------|-----|
+| All content | `/index.xml` |
+| Finished items | `/finished.xml` |

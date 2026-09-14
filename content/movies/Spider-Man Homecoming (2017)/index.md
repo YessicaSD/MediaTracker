@@ -1,20 +1,25 @@
-﻿---
+---
 banner_image: tmdb_fn4n6uOYcB6Uh89nbNPoU2w80RV.jpg
-category: "[[Películas]]"
-date:
+category: '[[Películas]]'
+date: null
 genres:
-  - Acción
-  - Aventura
-  - Ciencia ficción
+- Acción
+- Aventura
+- Ciencia ficción
 image: tmdb_wFNNv1ZHglNdXJLYiEgpLY5sa9S.jpg
-overview: Peter Parker comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man. Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark, Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la vida de Peter comenzará a verse amenazado.
-rating:
+overview: Peter Parker comienza a experimentar su recién descubierta identidad como
+  el superhéroe Spider-Man. Después de la experiencia vivida con los Vengadores, Peter
+  regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark,
+  Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe
+  en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la
+  vida de Peter comenzará a verse amenazado.
+rating: null
 release_date: 2017-07-05
 rewatches: []
 status: finished
 tags:
-  - cine
-title: "Spider-Man: Homecoming"
+- cine
+title: 'Spider-Man: Homecoming'
 tmdb_id: 315635
 type: movie
 ---

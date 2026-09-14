@@ -1,19 +1,20 @@
-﻿---
-banner_image: Hobbit_banner.jpg
-category: "[[Libros]]"
+---
+banner_image: img_e89c59bfc3a1babfa94cd893a88b9513.jpg
+category: '[[Libros]]'
 date: 2026-05-03
-genres:
-image: HobbitCover.jfif
-overview:
-rating: "6"
-release_date:
+genres: null
+image: img_72d2eec32da7e3011d395631cb8f7351.jpg
+overview: null
+rating: '6'
+release_date: null
 rewatches: []
 status: finished
 tags: []
 title: Hobbit
-tmdb_id:
+tmdb_id: null
 type: book
 ---
+
 Mi edición no es la más chula, pero es la que tenía por casa… Este año me he propuesto leer los libros que ya tengo, y le ha tocado el turno a _El Hobbit_.
 
 Nada mal. Me esperaba un libro lleno de descripciones interminables. Al principio sí que te pierdes un poco, sobre todo cuando salta de un tema a otro, pero cuando te acostumbras al estilo de escritura de Tolkien se vuelve súper entretenido, y me he devorado el libro en un momento.
