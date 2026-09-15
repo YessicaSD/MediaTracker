@@ -7,6 +7,7 @@ available_platforms:
 - iOS
 - Xbox One
 - Nintendo Switch
+banner_image: steam_1931770_library_hero.jpg
 date: 2026-07-05
 developer: Rundisc
 genres:
@@ -15,6 +16,7 @@ genres:
 - Adventure
 - Indie
 igdb_id: 198499
+image: steam_1931770_library_600x900_2x.jpg
 overview: Divided since the dawn of time, the Peoples of the Tower no longer speak
   to each other. But it is said that one day, a Traveler will find the strength and
   wisdom to break down the walls and restore the Balance.
